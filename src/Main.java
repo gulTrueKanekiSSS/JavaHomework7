@@ -5,12 +5,12 @@ public class Main {
 
         //task 2
         int num = 1;
-        while (num <= 10){
+        while (num <= 10) {
             System.out.print(num + " ");
-            num ++;
+            num++;
         }
         System.out.print("\n");
-        for (int i = 10; i > 0; i--){
+        for (int i = 10; i > 0; i--) {
             System.out.print(i + " ");
         }
 
@@ -19,7 +19,7 @@ public class Main {
         //task 3
         int populationY = 12000000;
 
-        for (int year = 1; year <= 10; year++){
+        for (int year = 1; year <= 10; year++) {
             populationY += (populationY / 1000) * (17 - 8);
             System.out.println("Год " + year + ", численность населения составляет " + populationY);
         }
@@ -28,7 +28,7 @@ public class Main {
         int money = 15000;
         int requireMonths = 0;
 
-        while (money <= 12000000){
+        while (money <= 12000000) {
             money += (money / 100) * 7;
             requireMonths++;
             System.out.println("Сумма накоплений за " + requireMonths + " месяц: " + money);
@@ -39,8 +39,8 @@ public class Main {
         int money2 = 15000;
         int requireMonths2 = 0;
 
-        while (money2 <= 12000000){
-            requireMonths2 ++;
+        while (money2 <= 12000000) {
+            requireMonths2++;
             money2 += (money2 / 100) * 7;
             if (requireMonths2 % 6 == 0) {
                 System.out.println("Сумма накоплений за " + requireMonths2 + " месяц: " + money2);
@@ -52,8 +52,8 @@ public class Main {
         int vasyaMoney = 15000;
 
         int everyHalfYear = 18;
-        while (everyHalfYear > 0){
-            for (int i = 1; i <= 6; i++){
+        while (everyHalfYear > 0) {
+            for (int i = 1; i <= 6; i++) {
                 vasyaMoney += (vasyaMoney / 100) * 7;
             }
             everyHalfYear--;
@@ -73,7 +73,7 @@ public class Main {
         int year = 0;
 
         while (year <= 2124) {
-            if (year >= 1824){
+            if (year >= 1824) {
                 System.out.println(year);
             }
             year += 79;
